@@ -36,26 +36,28 @@ A simple HTML table:
 </table>
 ```
 
-![First Heading](\img\first-heading.PNG)
+![table](\img\basic-table.PNG)
 
 Table Cells
-Each table cell is defined by a <td> and a </td> tag.
+Each table cell is defined by a `<td>` and a `</td>` tag.
 
 td stands for table data.
 
-Everything between <td> and </td> are the content of the table cell.
+Everything between `<td>` and `</td>` are the content of the table cell.
 
 #### Example
 
 ```
 <table>
   <tr>
-    <td>Emil</td>
+    <td>Email</td>
     <td>Tobias</td>
     <td>Linus</td>
   </tr>
 </table>
 ```
+
+![table](\img\td-table.PNG)
 
 #### Note:
 
@@ -83,6 +85,8 @@ tr stands for table row.
   </tr>
 </table>
 ```
+
+![table](\img\tr-table.PNG)
 
 You can have as many rows as you like in a table; just make sure that the number of cells are the same in each row.
 
@@ -117,6 +121,8 @@ Let the first row be table header cells:
   </tr>
 </table>
 ```
+
+![table](\img\Th-table.PNG)
 
 By default, the text in `<th>` elements are bold and centered, but you can change that with CSS.
 
