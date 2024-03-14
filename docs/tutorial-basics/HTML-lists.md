@@ -69,7 +69,7 @@ The `<dl>` tag defines the description list, the `<dt>` tag defines the term (na
 </dl>
 ```
 
-![list](\img\descri-list-list.PNG)
+![list](\img\descri-list.PNG)
 
 HTML List Tags
 
