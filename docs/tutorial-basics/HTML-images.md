@@ -26,13 +26,13 @@ The required src attribute specifies the path (URL) to the image.
 
 When a web page loads, it is the browser, at that moment, that gets the image from a web server and inserts it into the page. Therefore, make sure that the image actually stays in the same spot in relation to the web page, otherwise your visitors will get a broken link icon. The broken link icon and the alt text are shown if the browser cannot find the image.
 
-Example
+#### Example
 
 ```
 <img src="img_chania.jpg" alt="Flowers in Chania">
 ```
 
-![link](\img/link-titles.PNG)
+![image](\img/alt-img.PNG)
 
 ### The alt Attribute
 
@@ -40,32 +40,39 @@ The required alt attribute provides an alternate text for an image, if the user 
 
 The value of the alt attribute should describe the image:
 
-Example
+#### Example
 
 ```
 <img src="img_chania.jpg" alt="Flowers in Chania">
 ```
 
+![image](\img/image-alt-text.PNG)
+
 If a browser cannot find an image, it will display the value of the alt attribute:
 
-Example
+####Example
 
 ```
 <img src="wrongname.gif" alt="Flowers in Chania">
 ```
 
+![image](\img/image-alt.PNG)
+
 #### Tip:
 
 A screen reader is a software program that reads the HTML code, and allows the user to "listen" to the content. Screen readers are useful for people who are visually impaired or learning disabled.
 
-Image Size - Width and Height
+### Image Size - Width and Height
+
 You can use the style attribute to specify the width and height of an image.
 
-Example
+#### Example
 
 ```
 <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
 ```
+
+![image](\img/image-size.PNG)
 
 Alternatively, you can use the width and height attributes:
 
@@ -75,16 +82,21 @@ Example
 <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
 ```
 
+![image](\img/image-size.PNG)
+
 The width and height attributes always define the width and height of the image in pixels.
 
-Note: Always specify the width and height of an image. If width and height are not specified, the web page might flicker while the image loads.
+##### Note:
 
-Width and Height, or Style?
+Always specify the width and height of an image. If width and height are not specified, the web page might flicker while the image loads.
+
+### Width and Height, or Style?
+
 The width, height, and style attributes are all valid in HTML.
 
 However, we suggest using the style attribute. It prevents styles sheets from changing the size of images:
 
-Example
+#### Example
 
 ```
 <!DOCTYPE html>
@@ -106,16 +118,22 @@ img {
 </html>
 ```
 
-Images in Another Folder
+![image](\img/image-width.PNG)
+
+### Images in Another Folder
+
 If you have your images in a sub-folder, you must include the folder name in the src attribute:
 
-Example
+#### Example
 
 ```
 <img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
 ```
 
-Images on Another Server/Website
+![image](\img/images-folder.PNG)
+
+### Images on Another Server/Website
+
 Some web sites point to an image on another server.
 
 To point to an image on another server, you must specify an absolute (full) URL in the src attribute:
@@ -126,9 +144,14 @@ Example
 <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
 ```
 
-Notes on external images: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; they can suddenly be removed or changed.
+![image](\img/img-server.PNG)
 
-Animated Images
+#### Notes
+
+on external images: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; they can suddenly be removed or changed.
+
+### Animated Images
+
 HTML allows animated GIFs:
 
 Example
@@ -137,7 +160,10 @@ Example
 <img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
 ```
 
-Image as a Link
+![image](\img/animated-img.PNG)
+
+### Image as a Link
+
 To use an image as a link, put the `<img>` tag inside the `<a>` tag:
 
 Example
@@ -148,10 +174,13 @@ Example
 </a>
 ```
 
-Image Floating
+![image](\img/image-link.PNG)
+
+### Image Floating
+
 Use the CSS float property to let the image float to the right or to the left of a text:
 
-Example
+#### Example
 
 ```
 <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
@@ -160,6 +189,8 @@ The image will float to the right of the text.</p>
 <p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
 The image will float to the left of the text.</p>
 ```
+
+![image](\img/image-floating.PNG)
 
 ### Common Image Formats
 
@@ -184,4 +215,4 @@ Here are the most common image file types, which are supported in all browsers (
 
 #### Note:
 
-Loading large images takes time, and can slow down your web page. Use images care
+Loading large images takes time, and can slow down your web page. Use images carefully.
