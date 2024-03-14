@@ -31,6 +31,8 @@ The list items will be marked with bullets (small black circles) by default:
 </ul>
 ```
 
+![list](\img\unorder-list.PNG)
+
 ### Ordered HTML List
 
 An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag.
@@ -46,6 +48,8 @@ The list items will be marked with numbers by default:
   <li>Milk</li>
 </ol>
 ```
+
+![list](\img\order-list.PNG)
 
 HTML Description Lists
 HTML also supports description lists.
@@ -65,7 +69,7 @@ The `<dl>` tag defines the description list, the `<dt>` tag defines the term (na
 </dl>
 ```
 
-![First Heading](\img\first-heading.PNG)
+![list](\img\descri-list-list.PNG)
 
 HTML List Tags
 
