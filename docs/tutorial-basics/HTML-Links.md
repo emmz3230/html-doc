@@ -34,7 +34,7 @@ This example shows how to create a link to Github.com:
 <a href="https://www.github.com/">Visit github.com!</a>
 ```
 
-![colors](\img\colors.PNG)
+![link](\img\links.PNG)
 
 By default, links will appear as follows in all browsers:
 
@@ -62,6 +62,8 @@ The target attribute can have one of the following values:
 <a href="https://www.github.com/" target="_blank">Visit github!</a>
 ```
 
+![link](\img/target-attribute.PNG)
+
 ### Absolute URLs vs. Relative URLs
 
 Both examples above are using an absolute URL (a full web address) in the href attribute.
@@ -72,13 +74,15 @@ Example
 
 ```
 <h2>Absolute URLs</h2>
-<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.github.org/">github</a></p>
 <p><a href="https://www.google.com/">Google</a></p>
 
 <h2>Relative URLs</h2>
 <p><a href="html_images.asp">HTML Images</a></p>
 <p><a href="/css/default.asp">CSS Tutorial</a></p>
 ```
+
+![link](\img/absolute-url.PNG)
 
 ### HTML Links - Use an Image as a Link
 
@@ -92,6 +96,8 @@ To use an image as a link, just put the `<img>` tag inside the `<a>` tag:
 </a>
 ```
 
+![link](\img/image-link.PNG)
+
 Link to an Email Address
 Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):
 
@@ -100,6 +106,8 @@ Example
 ```
 <a href="mailto:someone@example.com">Send email</a>
 ```
+
+![link](\img/email-link.PNG)
 
 Button as a Link
 To use an HTML button as a link, you have to add some JavaScript code.
@@ -112,6 +120,8 @@ Example
 <button onclick="document.location='default.asp'">HTML Tutorial</button>
 ```
 
+![link](\img/button-links.PNG)
+
 ### Link Titles
 
 The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.
@@ -119,30 +129,10 @@ The title attribute specifies extra information about an element. The informatio
 Example
 
 ```
-<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+<a href="https://www.github.com" title="Go to github">Visit our Repository</a>
 ```
 
-More on Absolute URLs and Relative URLs
-Example
-Use a full URL to link to a web page:
-
-```
-<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
-```
-
-Example
-Link to a page located in the html folder on the current web site:
-
-```
-<a href="/html/default.asp">HTML tutorial</a>
-```
-
-Example
-Link to a page located in the same folder as the current page:
-
-```
-<a href="default.asp">HTML tutorial</a>
-```
+![link](\img/link-titles.PNG)
 
 Summary
 
