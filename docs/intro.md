@@ -33,24 +33,23 @@ HTML elements label pieces of content such as "this is a heading", "this is a pa
     <p>My first paragraph.</p>
   </body>
 </html>
-
+```
 
 Example explained
 
-The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The `<!DOCTYPE html>` declaration defines that this document is an HTML5 document
 
-The <html> element is the root element of an HTML page
+The `<html>` element is the root element of an HTML page
 
-The <head> element contains meta information about the HTML page
+The `<head>` element contains meta information about the HTML page
 
-The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The `<title>` element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
 
-The <body> element defines the main part of the document. It holds all the things you can see, like headings, paragraphs, images, links, tables, and lists.
+The `<body>` element defines the main part of the document. It holds all the things you can see, like headings, paragraphs, images, links, tables, and lists.
 
-The <h1> element defines a large heading
+The `<h1>` element defines a large heading
 
-The <p> element defines a paragraph
-```
+The `<p>` element defines a paragraph
 
 you will see a preview on browser when open with browser of your choice. which will be talk about in the editor to use [Editor to use](/docs/tutorial-basics/Editors-to-use) page.
 
