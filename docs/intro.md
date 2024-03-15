@@ -54,7 +54,7 @@ The <p> element defines a paragraph
 
 you will see a preview on browser when open with browser of your choice. which will be talk about in the editor to use [Editor to use](/docs/tutorial-basics/Editors-to-use) page.
 
-![First Heading](\img\first-heading.PNG)
+![First Heading](\img\class-attri.PNG)
 
 <!-- ![vscode screenshot](/static/img/first-heading.PNG) -->
 
