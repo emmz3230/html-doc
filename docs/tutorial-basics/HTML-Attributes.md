@@ -127,13 +127,13 @@ However, I recommends quotes in HTML, and demands quotes for stricter document t
 Good:
 
 ```
-<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+<a href="https://www.github.com/html/">Visit our HTML tutorial</a>
 ```
 
 Bad:
 
 ```
-<a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>
+<a href=https://www.github.com/html/>Visit our HTML tutorial</a>
 ```
 
 Sometimes you have to use quotes. This example will not display the title attribute correctly, because it contains a space:
