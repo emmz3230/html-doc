@@ -43,15 +43,13 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/emmz3230/html-doc/edit/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/emmz3230/html-doc/edit/main/docs",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -80,7 +78,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/emmz3230/html-doc",
             label: "GitHub",
             position: "right",
           },
@@ -103,15 +101,11 @@ const config = {
             items: [
               {
                 label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                href: "https://github.com/emmz3230/html-doc",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "GitHub",
+                href: "https://github.com/emmz3230/html-doc",
               },
             ],
           },
@@ -124,12 +118,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/emmz3230/html-doc",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} HTML Docs. `,
       },
       prism: {
         theme: prismThemes.github,
