@@ -1,9 +1,10 @@
-// @ts-check
+// @ts-nocheck
 // `@type` JSDoc annotations allow editor autocompletion and type checking
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
+// @ts-ignore
 import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
@@ -13,7 +14,7 @@ const config = {
   favicon: "img/HTML_FULL_FORM_1.png",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://app.netlify.com/sites/html-documentations",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -49,7 +50,8 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/emmz3230/html-doc/edit/main/docs",
+          editUrl:
+            "https://github.com/emmz3230/html-doc/edit/main/docs",
         },
         theme: {
           customCss: "./src/css/custom.css",
