@@ -14,7 +14,7 @@ const config = {
   favicon: "img/HTML_FULL_FORM_1.png",
 
   // Set the production url of your site here
-  url: "https://app.netlify.com/sites/html-documentations",
+  url: "https://html-documentations.netlify.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
