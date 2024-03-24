@@ -14,15 +14,15 @@ const config = {
   favicon: "img/HTML_FULL_FORM_1.png",
 
   // Set the production url of your site here
-  url: "https://html-doc-site.netlify.app/",
+  url: "https://html-doc-site.netlify.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  // organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "Html-doc-site", // Usually your repo name.
+  organizationName: "emmz3230", // Usually your GitHub org/user name.
+  projectName: "html-doc", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -50,8 +50,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/emmz3230/html-doc/edit/main/docs",
+          editUrl: "https://github.com/emmz3230/html-doc/edit/main/docs",
         },
         theme: {
           customCss: "./src/css/custom.css",
