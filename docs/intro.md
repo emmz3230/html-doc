@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
 # HTML Introduction
@@ -51,7 +52,7 @@ The `<h1>` element defines a large heading
 
 The `<p>` element defines a paragraph
 
-you will see a preview on browser when open with browser of your choice. which will be talk about in the editor to use [Editor to use](/docs/tutorial-basics/Editors-to-use) page.
+you will see a preview on browser when open with browser of your choice. which will be talk about in the editor to use [Editor to use](/tutorial-basics/Editors-to-use) page.
 
 ![First Heading](\img\class-attri.PNG)
 
