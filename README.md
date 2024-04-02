@@ -1,41 +1,15 @@
-# Website
+## Html documentation site
+### This is a documentation site that help in learnig and knowing the thing you need know about the markup language of the web HTML
+#### It talk about topics like 
+HTML-Attributes
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+HTML-Favicon
 
-### Installation
+HTML-Links
 
-```
-$ yarn
-```
+HTML-Page-Title
 
-### Local Development
+#### click on this link  https://html-doc-site.netlify.app/  to learn more
+### contributors
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+[github.com/kingzamzon](https://github.com/kingzamzon)
